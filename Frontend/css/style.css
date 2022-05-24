@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/*Reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Main Styling*/
+body{
+    font-family: "Monserrat", sans-serif;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+h2{
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+p{
+    font-size: 1rem;
+    margin: 10px 0;
+    line-height: 1.7em;
+}
+
+a{
+    text-decoration: none;
+    color: black; 
+}
+
+/*utility classes*/
+.container{
+    margin: auto;
+    max-width: 1500px;
+    overflow: auto;
+    padding: 0 10px;
+}
+
+.large{
+    font-size: 1.25rem;
+}
+.txt-ligth{
+    font-weight: 200;
+}
+
+.text-red{
+    color: red;
+}
+
+.display1{
+    font-size: 70px;
+    text-transform: uppercase;
+}
+
+.btn{
+    display: inline-block;
+    font-size: 15px;
+    padding: 15px 50px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 30px;
+    text-transform: uppercase;
+}
+
+.tbn-ligth{
+    background: red;
+    border: 1px solid red;
+    color: #fff;
+
+}
+
+.tbn-outline{
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.btn-dark{
+    background: #6c757d;
+    border: 1px solid #6c757d;
+    color: #fff;
+
+}
+
+/*header*/
+#mainheader{
+    height: 100vh;
+    padding-top: 0px;
+}
+
+/* Navbar*/
+#mainnavbar{
+    overflow: auto;
+}
+
+#mainnavbar a{
+    color: #6c757d;
+}
+
+#mainnavbar .logo{
+    float: left;
+    padding-top: 30px;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+#mainnavbar ul{
+    list-style: none;
+    float: right;
+    text-transform: uppercase;
+}
+
+#mainnavbar ul li{
+    float: left;
+}
+
+#mainnavbar ul li a{
+    display: block;
+    padding: 40px 30px;
+    text-align: center;
+}
+
+#mainnavbar ul li a:hover{
+    background:red;
+    color: #fff;
+}
+
+/*showcase*/
+#showcase{
+    background: url("../imagenes/portada.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: right;
+    padding: 200px;
+    padding-bottom: 90px;
+    color: #fff;
+}
+
+#showcase h1{
+    padding-left: 300px
+}
+
+#showcase p{
+    padding-left: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
